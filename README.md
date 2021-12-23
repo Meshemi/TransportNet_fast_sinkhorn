@@ -1,6 +1,6 @@
 # TransportNet_fast_sinkhorn
 
-File sinkhorn.py contain code of fast sinkhorn for TransportNet project. Initialize class as a default one:
+File sinkhorn.py contain code of fast sinkhorn for  https://github.com/tamamolis/TransportNet project. Initialize class as a default one:
 s = Sinkhorn(L, W, people_num, sink_num_iter, sink_eps)
 Then you can use 'rec, _, _ = s.iterate(cost_matrix, mode = mode)' with mode in ['fast', 'default'] to correspondingly use fast or default sinkhorn implemetation.
 Some additional parameters of Sinkhorn class:
